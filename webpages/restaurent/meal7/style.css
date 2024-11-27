@@ -1,0 +1,126 @@
+body{
+    font-family: sans-serif;
+}
+nav{
+    
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+    height: 120px;
+    box-shadow: 1px 1px 1px rgb(215, 213, 213);
+}
+#sideicon{
+   
+    width: 120px;
+    display: flex;
+    justify-content: space-around;
+   
+}
+#logo3 i{
+    font-size: 25px;
+}
+#logo3 a{
+    color: black;
+
+}
+.middle{
+    padding: 40px;
+}
+#logo1{
+   padding-left: 20px;
+    width:130px;
+    height: 100px;
+}
+#logo1 img{
+    width:150px;
+    height: 70px;
+}
+#logo2{
+    padding-right: 20px;
+    width:30px;
+    height: 30px;
+}
+#logo2 img{
+    width:30px;
+    height: 30px;
+}
+
+.middle{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.img1 img{
+    width: 300px;
+    height: 400px;
+
+}
+.img1 {
+    border: 1px solid;
+    width: 300px;
+    height: 400px;
+}
+.Text{
+    
+    height: 400px;
+    width: 300px;
+    
+}
+.Text p:nth-child(1){
+    text-align: center;
+    font-size: 35px;
+}
+.Text p:nth-child(2){
+    font-size: 27px;
+}
+.btn1 {
+   text-align: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+}
+.btn1 button{
+    font-size: 22px;
+    width: 120px;
+    height: 50px;
+    background-color: green;
+    border-radius: 10px;
+    color: white;
+}
+
+.minus:hover{
+    background-color: red;
+    color: white;
+}
+.plus:hover{
+    background-color: green;
+    color: white;
+}
+.minus,.plus{
+    border: 1px solid;
+    font-size: 19px;
+    border-radius: 5px;
+    
+    
+}
+
+.num{
+    font-size: 19px ;
+}
+.list{
+    display: flex;
+}
+.list ul:nth-child(2){
+    list-style: none;
+}
+.cart1{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.cart1 button{
+    background-color: yellow;
+    font-size: 19px;
+    border-radius: 10px;
+}

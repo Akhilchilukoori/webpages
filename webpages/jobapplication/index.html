@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Job Application</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <div class="application-form">
+    <nav><h2>Job Application Form</h2></nav>
+    
+    <form action="/submit" method="post" target="_blank" enctype="multipart/form-data">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" name="phone" required>
+      <h3>Education Details</h3>
+      <label > <u>Highest Level of Education</u></label>
+      <div class="radio-group">
+        <label><input type="radio" name="education_level" value="Associate Degree"> Associate Degree</label><br>
+        <label><input type="radio" name="education_level" value="Bachelor's Degree"> Bachelor's Degree</label><br>
+        <label><input type="radio" name="education_level" value="Master's Degree"> Master's Degree</label><br>
+      </div>
+
+      <label><u>Relevant  Skills</u></label>
+      <div class="checkbox-group">
+        <label><input type="checkbox" name="skills" value="Java"> Java</label><br>
+        <label><input type="checkbox" name="skills" value="HTML/CSS/JavaScript">HTML/CSS/JavaScript</label><br>
+        <label><input type="checkbox" name="skills" value="SQL"> SQL</label><br>
+        <label><input type="checkbox" name="skills" value="React Js"> React Js </label><br>
+        <label><input type="checkbox" name="skills" value="Good communication"> Good communication </label>
+      </div>
+
+
+      <label for="position">Position Applied For</label>
+      <input type="text" id="position" name="position" required>
+
+      <label for="experience"> &rightarrow; Work Experience</label>
+      <label > <input type="radio" name="Experiance" value="Fresher"> Fresher </label>
+      <textarea id="experience" name="experience" rows="4" required></textarea>
+
+      <label for="resume">Upload Resume</label>
+      <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
+
+      <button type="submit">Submit Application</button>
+    </form>
+  </div>
+
+</body>
+</html>

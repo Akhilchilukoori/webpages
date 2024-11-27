@@ -1,0 +1,51 @@
+.section1{
+    border: 1px solid;
+    height: 200px;
+    background-image: url(https://cnbl-cdn.bamgrid.com/assets/5c13a6f7ce649fd2c51a64baa26e291380b205efdbeca3674ad9ed36d0ff7905/original);
+    background-size: contain;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+svg{
+    height: 30px;
+    opacity: 0.8;
+}
+#logo{
+    border: 1px solid;
+    height: 30px;
+    width: 30px;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    height: 20px;
+    width: 50px;
+    border-radius: 20%;
+
+}
+.login:hover{
+    background-color: rgb(138, 138, 155);
+    color: white;
+}
+.login a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.618);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 8px;
+   
+
+}
+.add1 img{
+    width: 200px;
+}
+.add1{
+    width: 200px;
+    height: 20px;
+    
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <nav><h2>Registration</h2></nav>
+    <div class="application-form">
+     
+        <form action="../login/index.html" method="post" >
+          <label for="name">Full Name :</label>
+          <input type="text" id="name" name="name" required><br><br>
+    
+          <label for="email">Email :</label>
+          <input type="email" id="email" name="email" required><br><br>
+    
+          <label for="phone">Phone Number :</label>
+          <input type="tel" id="phone" name="phone" required><br><br>
+
+          <label for="pswd">Set Password :</label>
+          <input type="password" id="pswd" name="password" required><br><br>
+          <label for="confirm">Confirm password :</label>
+          <input type="password" name="" id="Confirm">
+          <h3>Address</h3>
+        
+           <label for="country">Country</label>
+           <select name="Country" id="country">
+            <option value="choose"><--choose--></option>
+            <option value="India">India</option>
+            <option value="Aus">Australia</option>
+            <option value="USA">USA</option>
+           </select><br><br>
+           <label for="State">State</label>
+           <select name="Country" id="State">
+            <option value="choose"><--choose--></option>
+            <option value="Telangana">Telangana</option>
+            <option value="Karnataka">Karnataka</option>
+            <option value="Tamilnadu">Tamilnadu</option>
+           </select><br><br>
+           <label for="pincode">Pincode</label>
+           <input type="number" name="" id="Pincode">
+       <h3>Detail Address</h3>
+        <textarea name="" id="address" rows="4"></textarea>
+           </select>
+          <br>
+          <a href="../login/index.html"><button id="btn" type="button">Submit</button></a>
+        </form>
+      </div>
+      <script src="./script.js"></script>
+    
+</body>
+</html>
